@@ -1,0 +1,193 @@
+body
+{
+text-align : center;
+background-image : url("https://i.pinimg.com/originals/2e/0d/2f/2e0d2fd333bcb3589be5e438cfccce3b.jpg");
+margin:30%;
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment:fixed;
+color : white;
+}
+
+#mypic
+{
+    height : 250px;
+    width : 250px;
+    border-width : 50px;
+    border-radius:100px;
+}
+
+#AboutMe
+{
+position: relative;
+display: table;
+height: 100%;
+width : 100%;
+z-index: 9;
+}
+
+#MyStudents
+{
+display: table;
+height: 100%;
+width : 100%;
+z-index: 9;
+}
+
+#MyOffice
+{
+display: table;
+height: 100%;
+width : 100%;
+z-index: 9;
+}
+
+#myytchannel
+{
+display: table;
+height: 100%;
+width : 100%;
+z-index: 9;
+}
+
+#MyFavGame
+{
+position: relative;
+display: table;
+height: 100%;
+width : 100%;
+z-index: 9;
+text-align: center;
+}
+
+#MyFavApp
+{
+position: relative;
+display: table;
+height: 100%;
+width : 100%;
+z-index: 9;
+text-align: center;
+} 
+
+.menu {
+   /* list-style: none; */
+    position : fixed;
+    /* float:none; */
+    top: 0px;
+    margin-top:0px;
+    width : 100%;
+    height : 10%;
+    /* right: 30px; */
+    cursor: pointer;
+    z-index: 10;
+    background-image : url("https://printablewares.com/img/backgrounds/rainbow-big-polka-dot-wallpaper-hd-01.png");
+    color : lime;
+    }
+
+.links
+{
+color : lime;
+display : inline;
+padding-top : 5px;
+padding-left : 15px;
+padding-right : 15px;
+align-content: center;
+/* padding-bottom : 5px; */
+/* float : left; */
+}
+
+a
+{
+text-decoration : none;
+}
+
+.links:hover
+{
+background-color : white;
+}
+
+html
+{
+    scroll-behavior : smooth;
+}
+
+/* .img
+{
+width : 200px;
+height : 200px;
+border-radius: 10px;
+border-color: yellow;
+border-width: 10px;
+} */
+
+/*
+.parallax-inner 
+{
+    display: table-cell;
+    position: relative;   
+}
+*/
+
+h1
+{
+    font-size : large;
+    font-family : "Trebuchet MS";
+    color : yellow;
+}
+h2
+{
+font-size : large;
+color : white;
+font-family : "Veranda";
+}
+
+h3
+{
+font-size : large;
+color:white;
+font-family : "Comic";
+}
+
+#Sami
+{
+    width : 200px;
+    height : 200px;
+    align-self: center;
+}
+#myname
+{
+    font-family : "Brush Script MT";
+    font-size: xxx-large;
+    color:rgb(250, 10, 178);
+    font-weight:bold;
+}
+
+#myCarousel1 
+{
+    /* background-color: turquoise;
+    padding:25px;
+    height: 500px;
+    width:500px;
+    align-self: center; */
+    align-items: center;
+}
+
+#myCarousel2 
+{
+    /* background-color: violet;
+    padding:25px;
+    height:500px;
+    width:500px;
+    align-content: center; */
+    align-items: center;
+}
+
+.carousel-inner .item img
+{
+    margin: 0 auto;
+}
+.container
+{
+    text-align : center;
+}
